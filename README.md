@@ -7,13 +7,20 @@ Laboratory sessions for BDIVS subject, from the Master of Science in Signal Ther
 If you don't have the Docker image of the laboratory session you wish to run, create it with the following command:
 
 ```bash
-docker build -t bdivs_lab1 ./lab<n>/Dockerfile
+cd lab<n>
+docker build -t cdagti/bdivs_lab<n>:latest .
 ```
 
-where `n` is the number of the laboratory session. After that, run the bash scripts as follows:
+where `n` is the number of the laboratory session. Otherwise, you can download it with this command:
 
 ```bash
-./lab<n>/bdivs_lab<n>
+docker pull cdagti/bdivs_lab<n>
+```
+
+After that, run the corresponding bash script as follows:
+
+```bash
+.bdivs_lab<n>.sh
 ```
 
 Then, open this URL in your browser: `localhost:8888` and type the token/password `bdivs` to access the Jupyter Notebooks.
