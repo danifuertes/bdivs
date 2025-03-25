@@ -1,0 +1,15 @@
+/results
+*.pyc
+*.fuse_hidden*
+MANIFEST.in
+setup.py
+dist/
+tags
+dictol.egg-info/
+build/
+.vscode
+main.py
+/venv
+/dictol/data/CroppedYale/
+/dictol/data/Hand Gesture Recognition Database/
+/.idea
