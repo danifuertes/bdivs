@@ -20,7 +20,7 @@ docker pull cdagti/bdivs_lab<n>
 After that, run the corresponding bash script as follows:
 
 ```bash
-.bdivs_lab<n>.sh
+./bdivs_lab<n>.sh
 ```
 
 Then, open this URL in your browser: `localhost:8888` and type the token/password `bdivs` to access the Jupyter Notebooks.
