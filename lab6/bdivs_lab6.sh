@@ -1,2 +1,2 @@
 #!/bin/bash
-docker run -it --rm --gpus all --runtime nvidia -p 8888:8888 -e JUPYTER_TOKEN=bdivs --name bdivs_lab6_container danielfuertes/bdivs_lab6
+docker run -it --rm --gpus all --runtime nvidia -p 8888:8888 -e JUPYTER_TOKEN=bdivs --name bdivs_lab6_container cdagti/bdivs_lab6
